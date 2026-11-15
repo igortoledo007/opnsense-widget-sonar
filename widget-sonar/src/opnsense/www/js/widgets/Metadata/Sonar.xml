@@ -1,0 +1,119 @@
+<metadata>
+    <sonar>
+        <filename>Sonar.js</filename>
+        <link>/ui/diagnostics/firewall/log</link>
+        <!-- 27.1: the widget can be added more than once (each instance finds its own root); ignored by 26.7 -->
+        <multiple/>
+        <endpoints>
+            <endpoint>/api/diagnostics/firewall/stream_log</endpoint>
+            <endpoint>/api/diagnostics/interface/get_interface_names</endpoint>
+            <!-- host telemetry for the module views (on demand) -->
+            <endpoint>/api/diagnostics/cpu_usage/*</endpoint>
+            <endpoint>/api/diagnostics/system/system_resources</endpoint>
+            <endpoint>/api/diagnostics/traffic/*</endpoint>
+            <endpoint>/api/interfaces/overview/interfaces_info</endpoint>
+        </endpoints>
+        <translations>
+            <title>Sonar</title>
+            <pass>Pass</pass>
+            <block>Block</block>
+            <nat>NAT</nat>
+            <match>Match</match>
+            <inbound>Inbound</inbound>
+            <outbound>Outbound</outbound>
+            <hits>Hits</hits>
+            <click>click to open in Live View</click>
+            <waiting>Waiting for firewall log events…</waiting>
+            <sonar>Sonar</sonar>
+            <map>Map</map>
+            <flow>Flow</flow>
+            <citadel>Citadel</citadel>
+            <hole>Black hole</hole>
+            <rain>Digital rain</rain>
+            <cyber>Max Cyber</cyber>
+            <exposedattack>exposed and under attack</exposedattack>
+            <attempts>inbound attempts (5 min)</attempts>
+            <lowrisk>not reachable from the internet: low risk</lowrisk>
+            <admin>admin</admin>
+            <finding>worst finding</finding>
+            <threat>Threat level</threat>
+            <low>Low</low>
+            <guarded>Guarded</guarded>
+            <high>High</high>
+            <critical>Critical</critical>
+            <evmin>events/min</evmin>
+            <blkmin>blocked/min</blkmin>
+            <uniq>attackers</uniq>
+            <shield>Shield</shield>
+            <portsunit>ports</portsunit>
+            <core>Core</core>
+            <online>online</online>
+            <underattack>under attack</underattack>
+            <radar>Radar</radar>
+            <heatmap>Heat map</heatmap>
+            <warroom>War room</warroom>
+            <localtime>Local</localtime>
+            <uptime>Uptime</uptime>
+            <system>System</system>
+            <cache>cache</cache>
+            <exposure>Exposure</exposure>
+            <pcritical>Critical</pcritical>
+            <pexposed>Exposed</pexposed>
+            <phardened>Hardened</phardened>
+            <reach>reachable</reach>
+            <ryes>reachable from the internet</ryes>
+            <rmaybe>maybe reachable</rmaybe>
+            <rno>not reachable</rno>
+            <crit>critical</crit>
+            <highs>high</highs>
+            <medium>medium</medium>
+            <lows>low</lows>
+            <sound>Sound</sound>
+            <fullscreen>Fullscreen</fullscreen>
+            <exitfullscreen>Exit fullscreen</exitfullscreen>
+            <view>View</view>
+            <hosts>Hosts</hosts>
+            <passed>passed</passed>
+            <lastsources>Last sources</lastsources>
+            <origin>Origin</origin>
+            <interface>Interface</interface>
+            <service>Service</service>
+            <decision>Decision</decision>
+            <local>Local hosts</local>
+            <others>others</others>
+            <recentshare>of recent traffic</recentshare>
+            <loadingmap>Loading map…</loadingmap>
+            <nogeo>LAN/IPv6</nogeo>
+            <summary>Last 60 s</summary>
+            <events>events</events>
+            <blocked>blocked</blocked>
+            <attackers>Top attackers</attackers>
+            <ports>Targeted ports</ports>
+            <rules>Blocking rules</rules>
+            <recent>Last attacks</recent>
+            <aianalyst>AI analyst</aianalyst>
+            <aianalyzing>analyzing</aianalyzing>
+            <aiqueued>queued</aiqueued>
+            <aioff>AI off</aioff>
+            <aierror>AI error</aierror>
+            <aiwaiting>Preparing the first brief…</aiwaiting>
+            <aiwaitfocus>Looking at this address…</aiwaitfocus>
+            <ainone>No brief yet.</ainone>
+            <ainow>just now</ainow>
+            <aiago>%s ago</aiago>
+            <aiask>Ask AI</aiask>
+            <aiasktip>Ask the AI about this address (one short answer, nothing is blocked)</aiasktip>
+            <ailog>Live log</ailog>
+            <ailogtip>Open this address in the Live View</ailogtip>
+            <aiback>General brief</aiback>
+            <aiclose>Close</aiclose>
+            <aiselect>click: pick for the AI analyst</aiselect>
+            <aigenerated>Generated</aigenerated>
+            <aimodel>Model</aimodel>
+            <aiscope>From aggregates of the last 15 min, anonymized. Text only: nothing is blocked or changed.</aiscope>
+            <lanhost>Local host</lanhost>
+            <nethost>Internet host</nethost>
+            <last5>last 5 min</last5>
+        </translations>
+    </sonar>
+</metadata>
