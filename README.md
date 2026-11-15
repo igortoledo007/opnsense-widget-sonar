@@ -11,6 +11,18 @@ Made to celebrate 10 years of OPNsense, as a thank-you to the project and its co
 
 ## Screenshots
 
+**Window mode** (inside the dashboard): the six views, from the compact view selector.
+
+![Sonar views in window mode: radar, map, flow, Citadel, Black hole and Digital rain](screenshots/09-sonar-window-views.jpg)
+
+**Full screen** (button at the top right of the widget), with the side panel of the last 60 s:
+
+| | |
+|---|---|
+| ![Map in full screen](screenshots/07-sonar-fullscreen-map.jpg) | ![Citadel in full screen](screenshots/08-sonar-fullscreen-citadel.jpg) |
+
+<details><summary>Each view on its own, and the widget on the dashboard</summary>
+
 | | |
 |---|---|
 | ![Dashboard](screenshots/00-sonar-dashboard.jpg) | ![Radar](screenshots/01-sonar-radar.jpg) |
@@ -18,8 +30,10 @@ Made to celebrate 10 years of OPNsense, as a thank-you to the project and its co
 | ![Citadel](screenshots/04-sonar-citadel.jpg) | ![Black hole](screenshots/05-sonar-black-hole.jpg) |
 | ![Digital rain](screenshots/06-sonar-digital-rain.jpg) | |
 
+</details>
+
 The dark look in the screenshots is the separate [Forja theme](https://github.com/igortoledo007/opnsense-theme-forja);
-the widget works with any theme. Addresses and interface names in the screenshots are blurred.
+the widget works with any theme. Addresses, interface and rule names in the screenshots are blurred.
 
 ## What it shows
 
